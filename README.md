@@ -30,9 +30,9 @@ polls/
 │   └── wsgi.py           # WSGI configuration
 ├── polls/                 # Main application
 │   ├── models.py         # Question and Choice models
-│   ├── serializers.py    # API serializers
 │   ├── admin.py          # Admin configuration
 │   └── api/              # API endpoints
+│       ├── serializers.py # API serializers
 │       ├── views.py      # API ViewSets
 │       └── urls.py       # API URLs
 ├── requirements.txt       # Project dependencies
